@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        body{
+    background-color: #161a1d;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para a Malu</title>
+    <link rel="stylesheet" href="CSS/texto.css">
+</head>
+<body>
+    <H1>Maria Luiza de Oliveira, você é aquilo que eu estava procurando por anos, você é o amor da minha vida, a minha luz e eu tenho mt orgulho de você, e tambêm muita sorte de ter te conhecido, você faz todos os meus dias ficarem cheio de cor só de acordar com seus bom dia, você é o motivo de eu ter forças pra levantar da minha cama e seguir meus dia, sempre melhorando por você, por mim, por nós e pelo nosso futuro juntos, eu olho pra essa foto e fico pensando em como eu consegui conquistar uma deus grega como essa e como você pode amar uma pessa tão falha como eu mas eu esqueço essa parte de ser falho toda vez que caio em seus braços </H1>
+     <script>
+    const numHearts = 100;
+
+    for (let i = 0; i < numHearts; i++) {
+      const heart = document.createElement("div");
+      heart.classList.add("heart");
+      heart.innerText = "❤️";
+
+      // Posição e animação aleatória
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.fontSize = Math.random() * 20 + 10 + "px";
+      heart.style.animationDuration = 2 + Math.random() * 3 + "s";
+      heart.style.animationDelay = Math.random() * 5 + "s";
+
+      document.body.appendChild(heart);
+    }
+  </script>
+  <div class="hearts-container"></div>
+</body>
+</html>
