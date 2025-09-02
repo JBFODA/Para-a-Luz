@@ -61,7 +61,7 @@ h1 {
   h1 {
     font-size: 1rem; /* 16px */
     padding: 15px;
-    width: 100vw;
+    width: 90vw;
     border-radius: 0; /* opcional: remove bordas arredondadas nas laterais */
   }
 
