@@ -57,13 +57,23 @@ body {
 
 /* Responsividade para telas pequenas */
 @media (max-width: 600px) {
-  h1 {
-    font-size: 16px;
+h1 {
+    font-size: 14px;
     padding: 15px;
+    max-width: 95vw;
+    line-height: 1.4;
   }
-}
-.texto {
-font-size: 0.6em;
-width: 85vw;
-height: auto;
+
+  .texto {
+    font-size: 0.75em;
+    width: 90vw;
+    padding: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 }
