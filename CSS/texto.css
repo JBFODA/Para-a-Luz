@@ -62,3 +62,8 @@ body {
     padding: 15px;
   }
 }
+.texto {
+font-size: 0.6em;
+width: 70vw;
+height: auto;
+}
