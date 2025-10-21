@@ -60,17 +60,19 @@
         }
     }
 
-    /* Estilo da imagem vertical pequena */
     .foto-vertical {
-        display: block;
-        margin: 20px auto 0 auto;
-        width: auto;
-        height: 200px; /* altura controlada para ficar retangular na vertical */
-        border-radius: 12px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-        z-index: 2;
-        position: relative;
+    display: block;
+    margin: 20px auto 0 auto;
+    max-height: 200px;
+    max-width: 120px; /* controla largura para manter formato vertical */
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    position: relative;
     }
+
 
     @media (max-width: 600px) {
         h1 {
